@@ -1,4 +1,4 @@
-name: ZTV Clean
+name: Merge IPTV
 
 on:
   workflow_dispatch:
@@ -20,26 +20,20 @@ jobs:
         with:
           node-version: 18
 
-      - name: Generate clean ztv.m3u
+      # -------- ZTV generate --------
+      - name: Generate ztv.m3u
         run: |
           node <<'EOF'
           const fs = require("fs");
           const https = require("https");
 
-          const url = "https://ztv.pfy.workers.dev";
-
-          https.get(url, res => {
+          https.get("https://ztv.pfy.workers.dev", res => {
             let data = "";
-
             res.on("data", c => data += c);
             res.on("end", () => {
               let json;
-              try {
-                json = JSON.parse(data);
-              } catch {
-                console.error("Invalid JSON");
-                process.exit(1);
-              }
+              try { json = JSON.parse(data); }
+              catch { process.exit(1); }
 
               const list = Array.isArray(json)
                 ? json
@@ -71,16 +65,28 @@ jobs:
               }
 
               fs.writeFileSync("ztv.m3u", out);
-              console.log("ztv.m3u generated clean");
             });
           }).on("error", () => process.exit(1));
           EOF
 
-      - name: Commit
+      # -------- Download Sony playlist --------
+      - name: Download sony.m3u
+        run: |
+          curl -L "https://raw.githubusercontent.com/cloudplay97/m3u/refs/heads/main/sony.m3u" -o sony.m3u
+
+      # -------- Merge both --------
+      - name: Merge playlists
+        run: |
+          echo "#EXTM3U" > merged.m3u
+          tail -n +2 ztv.m3u >> merged.m3u
+          tail -n +2 sony.m3u >> merged.m3u
+
+      # -------- Commit --------
+      - name: Commit merged.m3u
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ztv.m3u
+          git add merged.m3u
           git diff --cached --quiet && exit 0
-          git commit -m "clean ztv.m3u"
+          git commit -m "Auto update merged IPTV"
           git push
