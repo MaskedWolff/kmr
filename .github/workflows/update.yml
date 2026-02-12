@@ -1,4 +1,4 @@
-name: ZTV
+name: ZTV Clean
 
 on:
   workflow_dispatch:
@@ -15,47 +15,66 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install jq
-        run: sudo apt-get update && sudo apt-get install -y jq
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
 
-      - name: Generate ztv.m3u
+      - name: Generate clean ztv.m3u
         run: |
-          set -e
-          curl -L "https://ztv.pfy.workers.dev" -o data.json
+          node <<'EOF'
+          const fs = require("fs");
+          const https = require("https");
 
-          if [ ! -s data.json ]; then
-            echo "Download failed"
-            exit 1
-          fi
+          const url = "https://ztv.pfy.workers.dev";
 
-          echo "#EXTM3U" > ztv.m3u
+          https.get(url, res => {
+            let data = "";
 
-          jq -r '
-            .[]?
-            | select(type=="object")
-            | (.name // "Unknown") as $n
-            | (.logo // "") as $logo
-            | (.link // .url // .mpd // "") as $url
-            | (.drmLicense // "") as $lic
-            | (.cookie // "") as $cookie
-            | select($url != "")
+            res.on("data", c => data += c);
+            res.on("end", () => {
+              let json;
+              try {
+                json = JSON.parse(data);
+              } catch {
+                console.error("Invalid JSON");
+                process.exit(1);
+              }
 
-            ,
-            "#EXTINF:-1" +
-            (if $logo != "" then " tvg-logo=\"" + $logo + "\"" else "" end) +
-            "," + $n,
+              const list = Array.isArray(json)
+                ? json
+                : json.channels || json.data || json.list || Object.values(json);
 
-            (if ($lic|contains(":"))
-              then "#KODIPROP:inputstream.adaptive.license_type=clearkey",
-                   "#KODIPROP:inputstream.adaptive.license_key=" + $lic
-              else empty end),
+              let out = "#EXTM3U\n";
 
-            (if $cookie != ""
-              then "#EXTHTTP:{\"cookie\":\"" + $cookie + "\"}"
-              else empty end),
+              for (const ch of list) {
+                const name = ch.name || "Unknown";
+                const logo = ch.logo || "";
+                const url  = ch.link || ch.url || ch.mpd || "";
+                const lic  = ch.drmLicense || "";
+                const cookie = ch.cookie || "";
 
-            $url
-          ' data.json >> ztv.m3u
+                if (!url) continue;
+
+                out += `#EXTINF:-1${logo ? ` tvg-logo="${logo}"` : ""},${name}\n`;
+
+                if (lic.includes(":")) {
+                  out += "#KODIPROP:inputstream.adaptive.license_type=clearkey\n";
+                  out += `#KODIPROP:inputstream.adaptive.license_key=${lic}\n`;
+                }
+
+                if (cookie) {
+                  out += `#EXTHTTP:{"cookie":"${cookie}"}\n`;
+                }
+
+                out += url + "\n";
+              }
+
+              fs.writeFileSync("ztv.m3u", out);
+              console.log("ztv.m3u generated clean");
+            });
+          }).on("error", () => process.exit(1));
+          EOF
 
       - name: Commit
         run: |
@@ -63,5 +82,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ztv.m3u
           git diff --cached --quiet && exit 0
-          git commit -m "update ztv.m3u"
+          git commit -m "clean ztv.m3u"
           git push
