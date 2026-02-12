@@ -1,92 +1,88 @@
-name: Update M3U
+name: ZTV Auto Update
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes
+    - cron: "*/10 * * * *"
 
 permissions:
   contents: write
 
 jobs:
-  update-m3u:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-      - name: Install Playwright
+      - name: Generate ztv.m3u
         run: |
-          npm init -y
-          npm install playwright
-          npx playwright install chromium
+          set -e
+          URL="https://ztv.pfy.workers.dev"
 
-      - name: Fetch latest M3U
-        run: |
-          node -e "
-          const { chromium } = require('playwright');
-          const fs = require('fs');
+          echo "Downloading JSON..."
+          curl -L "$URL" -o data.json
 
-          (async () => {
-            console.log('Launching browser...');
-
-            const browser = await chromium.launch({ 
-              headless: true,
-              args: ['--no-sandbox', '--disable-setuid-sandbox']
-            });
-
-            const page = await browser.newPage();
-
-            console.log('Opening source URL...');
-            await page.goto('https://j-plus.free.nf/jtv/jtv.m3u.php', {
-              waitUntil: 'networkidle',
-              timeout: 120000
-            });
-
-            // Wait extra for JS rendering
-            await page.waitForTimeout(5000);
-
-            console.log('Extracting playlist...');
-            const text = await page.evaluate(() => document.body.innerText);
-
-            if (!text || !text.includes('#EXTM3U')) {
-              throw new Error('❌ Invalid or empty M3U received');
-            }
-
-            fs.writeFileSync('jtv.m3u', text.trim());
-            console.log('✅ jtv.m3u updated successfully');
-
-            await browser.close();
-          })();
-          "
-
-      - name: Check for changes
-        id: git-check
-        run: |
-          if git diff --quiet jtv.m3u; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No changes detected"
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo "Changes detected"
+          if [ ! -s data.json ]; then
+            echo "JSON download failed"
+            exit 1
           fi
 
-      - name: Commit and push
-        if: steps.git-check.outputs.has_changes == 'true'
+          echo "#EXTM3U" > ztv.m3u
+
+          jq -r '
+            def normalize:
+              if type=="array" then .
+              elif type=="object" then
+                if has("channels") then .channels
+                elif has("data") then .data
+                elif has("list") then .list
+                else [.[]]
+                end
+              else [] end;
+
+            normalize[]
+            | (.name // .title // "Unknown") as $name
+            | (.logo // "") as $logo
+            | (.id // "") as $id
+            | (.url // .link // .mpd // "") as $url
+            | (.drmScheme // "") as $drm
+            | (.drmLicense // "") as $lic
+            | (.cookie // "") as $cookie
+            | select($url != "")
+
+            ,
+            "#EXTINF:-1 " +
+            (if $id!="" then "tvg-id=\"" + $id + "\" " else "" end) +
+            (if $logo!="" then "tvg-logo=\"" + $logo + "\" " else "" end) +
+            "," + ($name|gsub(",";"\\,")),
+
+            (if ($drm=="clearkey" and ($lic|contains(":")))
+              then "#KODIPROP:inputstream.adaptive.license_type=clearkey",
+                   "#KODIPROP:inputstream.adaptive.license_key=" + $lic
+              else empty end),
+
+            (if $cookie!=""
+              then "#EXTHTTP:{\"cookie\":\"" + ($cookie|gsub("\"";"\\\"")) + "\"}"
+              else empty end),
+
+            $url
+          ' data.json >> ztv.m3u
+
+          echo "Playlist created:"
+          wc -l ztv.m3u
+
+      - name: Commit
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add jtv.m3u
-          git commit -m "🔄 Auto update jtv.m3u - $(date +'%Y-%m-%d %H:%M:%S')"
+          git add ztv.m3u
+          git diff --cached --quiet && exit 0
+
+          git commit -m "Auto update ztv.m3u"
           git push
-
-      - name: No changes
-        if: steps.git-check.outputs.has_changes == 'false'
-        run: echo "✅ Already up to date"
