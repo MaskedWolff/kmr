@@ -7722,12 +7722,6 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771061196~acl=/*~id=39519002859770465166109331832767~hmac=00b06c75f50da36bfe88e545c7dcfca6fb232cd11ad368544ba00f370f0a112d
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131065_5427_ELC_OSN_FC-Web.png" group-title="Fancode-Football", Elche CF vs CA Osasuna (LALIGA 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/131065_english_hls_ec648f22e676837_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1770347072506/140420_CASACARDS_APP.png" group-title="Fancode-Football", Almería vs FC Andorra (LALIGA Hypermotion 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/140420_english_hls_5e5b60976a84494_1ta-di_h264/index.m3u8
-
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3)_1770389196821.png" group-title="Fancode-Tennis", Centre Court vs Rotterdam, Netherlands (ATP 500 - ABN AMRO Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140198_english_hls_ec741f5b8189351_1ta-di_h264/index.m3u8
 
@@ -7758,6 +7752,6 @@ https://in-mc-fdlive.fancode.com/mumbai/140626_english_hls_1c0b3a43136357_1ta-di
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/AT&T-Pebble-Beach-Pro-Am-2026-old-card-.png" group-title="Fancode-Golf", World Feed - Day 2 vs Pebble Beach Golf Links, Spyglass Hill Golf Course (AT&T Pebble Beach Pro-Am 2026)
 https://india-mpv2.fancode.com/out/v1/ap-south-1/140045_english_847333/ad-h264/index.m3u8
 
-#EXTINF:-1, tvg-logo="  https://www.fancode.com/skillup-uploads/cms-media/Dallas-Open-(ATP-500)-old-card-_1770541232780.png" group-title="Fancode-Tennis", Grandstand vs Dallas, United States (ATP 500 - Nexo Dallas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140640_english_hls_82b355eb0690566_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131065_5427_ELC_OSN_FC-Web.png" group-title="Fancode-Football", Elche CF vs CA Osasuna (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131065_english_hls_ec648f22e676837_1ta-di_h264/index.m3u8
 
