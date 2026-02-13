@@ -3,7 +3,7 @@ name: Smart Merge IPTV
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"   # GitHub-safe smart refresh
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # -------- Download hidden sources --------
+      # -------- Download playlists --------
       - name: Download playlists from secrets
         run: |
           curl -sL "${{ secrets.SRC1 }}" -o ztv.m3u
@@ -23,12 +23,24 @@ jobs:
           curl -sL "${{ secrets.SRC3 }}" -o sonyliv.m3u
           curl -sL "${{ secrets.SRC4 }}" -o fancode.m3u
 
-      # -------- Merge all playlists --------
+      # -------- Build merged playlist --------
       - name: Build merged playlist
         run: |
           echo "#EXTM3U" > new_merged.m3u
+
+          # Normal merge for SRC1
           tail -n +2 ztv.m3u >> new_merged.m3u
-          tail -n +2 sony.m3u >> new_merged.m3u
+
+          # Add group-title="Sonyliv" to all SRC2 channels
+          awk '
+          /^#EXTINF/ {
+            if ($0 !~ /group-title=/)
+              sub(/#EXTINF:-1/, "#EXTINF:-1 group-title=\"Sonyliv\"")
+          }
+          { print }
+          ' sony.m3u | tail -n +2 >> new_merged.m3u
+
+          # Normal merge for SRC3 & SRC4
           tail -n +2 sonyliv.m3u >> new_merged.m3u
           tail -n +2 fancode.m3u >> new_merged.m3u
 
@@ -54,5 +66,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add merged.m3u
-          git commit -m "Smart auto update IPTV"
+          git commit -m "Smart auto update IPTV with Sonyliv group"
           git push
