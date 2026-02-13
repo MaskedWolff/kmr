@@ -3,7 +3,7 @@ name: Smart Merge IPTV
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"   # SAFE cron (GitHub friendly)
+    - cron: "*/15 * * * *"   # GitHub-safe smart refresh
 
 permissions:
   contents: write
@@ -15,15 +15,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # -------- Download all playlists --------
-      - name: Download sources
+      # -------- Download hidden sources --------
+      - name: Download playlists from secrets
         run: |
-          curl -sL "https://livetv-cb7.pages.dev/hotstar" -o ztv.m3u
-          curl -sL "https://raw.githubusercontent.com/cloudplay97/m3u/refs/heads/main/sony.m3u" -o sony.m3u
-          curl -sL "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.m3u" -o sonyliv.m3u
-          curl -sL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o fancode.m3u
+          curl -sL "${{ secrets.SRC1 }}" -o ztv.m3u
+          curl -sL "${{ secrets.SRC2 }}" -o sony.m3u
+          curl -sL "${{ secrets.SRC3 }}" -o sonyliv.m3u
+          curl -sL "${{ secrets.SRC4 }}" -o fancode.m3u
 
-      # -------- Merge --------
+      # -------- Merge all playlists --------
       - name: Build merged playlist
         run: |
           echo "#EXTM3U" > new_merged.m3u
@@ -32,7 +32,7 @@ jobs:
           tail -n +2 sonyliv.m3u >> new_merged.m3u
           tail -n +2 fancode.m3u >> new_merged.m3u
 
-      # -------- Change detection --------
+      # -------- Detect change --------
       - name: Check for changes
         id: diff
         run: |
