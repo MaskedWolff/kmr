@@ -27,7 +27,7 @@ jobs:
           const fs = require("fs");
           const https = require("https");
 
-          https.get("https://ztv.pfy.workers.dev", res => {
+          https.get("https://livetv-cb7.pages.dev/hotstar", res => {
             let data = "";
             res.on("data", c => data += c);
             res.on("end", () => {
