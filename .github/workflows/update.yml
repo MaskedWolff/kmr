@@ -1,4 +1,4 @@
-name: Dual IPTV Build
+name: Build Merged IPTV
 
 on:
   workflow_dispatch:
@@ -23,12 +23,14 @@ jobs:
           curl -sL "${{ secrets.SRC3 }}" -o 3.m3u
           curl -sL "${{ secrets.SRC4 }}" -o 4.m3u
 
-      # -------- Merge raw --------
-      - name: Merge raw playlists
+      # -------- Merge + normalize --------
+      - name: Build merged.m3u
         run: |
-          echo "#EXTM3U" > all.m3u
+          echo "#EXTM3U" > merged.m3u
+
           for f in 1.m3u 2.m3u 3.m3u 4.m3u; do
-            sed '1{/^#EXTM3U/d}; s/\r$//; /^$/d' "$f" >> all.m3u
+            # remove header, CRLF, blank lines
+            sed '1{/^#EXTM3U/d}; s/\r$//; /^$/d' "$f" >> merged.m3u
           done
 
       # -------- Remove duplicate clearkey lines --------
@@ -42,33 +44,15 @@ jobs:
             print
             prev = $0
           }
-          ' all.m3u > cleaned.m3u
-          mv cleaned.m3u all.m3u
-
-      # -------- Build Tivimate-only playlist --------
-      - name: Build tivimate.m3u
-        run: |
-          echo "#EXTM3U" > tivimate.m3u
-          awk '
-          /#EXTINF/ {info=$0; getline url}
-          {
-            if (url ~ /\.m3u8/ || url ~ /\.mpd/) {
-              print info
-              print url
-            }
-          }' all.m3u >> tivimate.m3u
-
-      # -------- Build OTT full playlist --------
-      - name: Build ott.m3u
-        run: |
-          cp all.m3u ott.m3u
+          ' merged.m3u > cleaned.m3u
+          mv cleaned.m3u merged.m3u
 
       # -------- Commit only if changed --------
-      - name: Commit playlists
+      - name: Commit merged playlist
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add tivimate.m3u ott.m3u
+          git add merged.m3u
           git diff --cached --quiet && exit 0
-          git commit -m "Auto update dual IPTV playlists (clearkey duplicate fixed)"
+          git commit -m "Auto update merged IPTV (single universal file)"
           git push
