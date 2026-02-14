@@ -3,7 +3,7 @@ name: Smart Merge IPTV
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/15 * * * *"   # GitHub-safe smart refresh
 
 permissions:
   contents: write
@@ -15,34 +15,38 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # -------- Download playlists --------
-      - name: Download playlists from secrets
+      # -------- Download playlists from secrets --------
+      - name: Download playlists
         run: |
           curl -sL "${{ secrets.SRC1 }}" -o ztv.m3u
           curl -sL "${{ secrets.SRC2 }}" -o sony.m3u
           curl -sL "${{ secrets.SRC3 }}" -o sonyliv.m3u
           curl -sL "${{ secrets.SRC4 }}" -o fancode.m3u
 
-      # -------- Build merged playlist --------
+      # -------- Build merged playlist (TiviMate safe) --------
       - name: Build merged playlist
         run: |
           echo "#EXTM3U" > new_merged.m3u
 
-          # Normal merge for SRC1
-          tail -n +2 ztv.m3u >> new_merged.m3u
+          # SRC1 clean append (remove header)
+          sed '1{/^#EXTM3U/d}' ztv.m3u >> new_merged.m3u
 
-          # Add group-title="Sonyliv" to all SRC2 channels
+          # SRC2 → force group-title="Sonyliv" safely
           awk '
+          /^#EXTM3U/ {next}
           /^#EXTINF/ {
-            if ($0 !~ /group-title=/)
-              sub(/#EXTINF:-1/, "#EXTINF:-1 group-title=\"Sonyliv\"")
+            line=$0
+            if (line !~ /group-title=/)
+              sub(/#EXTINF:-1/, "#EXTINF:-1 group-title=\"Sonyliv\"", line)
+            print line
+            next
           }
           { print }
-          ' sony.m3u | tail -n +2 >> new_merged.m3u
+          ' sony.m3u >> new_merged.m3u
 
-          # Normal merge for SRC3 & SRC4
-          tail -n +2 sonyliv.m3u >> new_merged.m3u
-          tail -n +2 fancode.m3u >> new_merged.m3u
+          # SRC3 & SRC4 clean append
+          sed '1{/^#EXTM3U/d}' sonyliv.m3u >> new_merged.m3u
+          sed '1{/^#EXTM3U/d}' fancode.m3u >> new_merged.m3u
 
       # -------- Detect change --------
       - name: Check for changes
@@ -66,5 +70,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add merged.m3u
-          git commit -m "Smart auto update IPTV with Sonyliv group"
+          git commit -m "Smart auto update IPTV (TiviMate safe + Sonyliv group)"
           git push
