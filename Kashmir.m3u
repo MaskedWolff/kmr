@@ -8757,12 +8757,10 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17713634
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1771363451~acl=/*~id=03146607528265316184904912319633~hmac=28443d07b6d294a1efd0ccac7846f241906f2c3e30569c0944a46051f4f4852e
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771363451~acl=/*~id=03146607528265316184904912319633~hmac=28443d07b6d294a1efd0ccac7846f241906f2c3e30569c0944a46051f4f4852e#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/23_Seoul-vs-Sanfrecce-Hiroshima_1770636487538.png" group-title="Fancode-Football", Seoul vs Sanfrecce Hiroshima (AFC Champions League Elite 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/136038_english_hls_17a472c13178937_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/24_Machida-Zelvia-vs-Chengdu-Rongcheng_1770636387098.png" group-title="Fancode-Football", Machida Zelvia vs Chengdu Rongcheng (AFC Champions League Elite 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/136037_english_hls_ba50e6541e27528_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Apti_cup_web.jpg" group-title="Fancode-Live Events", Day 2 vs Polo Gorund, Delhi University (Apti Cup T20 Tournament)
-https://in-mc-fdlive.fancode.com/mumbai/140600_english_hls_6b62fe153b82281_1ta-di_h264/index.m3u8
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771363451~acl=/*~id=03146607528265316184904912319633~hmac=28443d07b6d294a1efd0ccac7846f241906f2c3e30569c0944a46051f4f4852e#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/25_Johor-Darul-Ta'zim-vs-Vissel-Kobe_1770636633495.png" group-title="Fancode-Football", Johor Darul Ta'zim vs Vissel Kobe (AFC Champions League Elite 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/136040_english_hls_b6526a05ca11227_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/26_Buriram-United-vs-Shanghai-Shenhua_1770636561731.png" group-title="Fancode-Football", Buriram United vs Shanghai Shenhua (AFC Champions League Elite 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/136039_english_hls_721a51b24530031_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Thunderbolt-Auction-2026-Web.jpg" group-title="Fancode-Live Events", Thunderbolt T10 League Auction 2026 vs Roorkee, Uttarakhand (Thunderbolt T10 League Auction 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140750_english_hls_ba04e8611e2255_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="Fancode-Tennis", Grandstand 3 vs Doha, Qatar (ATP 500 - Qatar ExxonMobil Open 2026)
@@ -8773,7 +8771,7 @@ https://in-mc-fdlive.fancode.com/mumbai/140649_english_hls_250f5c06b551175_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140648_english_hls_4deb6b7f4433909_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="Fancode-Tennis", World Feed  vs Qatar (ATP 500 - Qatar ExxonMobil Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140647_english_hls_68594fe0ab5130_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-old-match-card-_1771246185234.jpg" group-title="Fancode-Tennis", Grandstand 2 vs Doha, Qatar (ATP 500 - Qatar ExxonMobil Open 2026)
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg" group-title="Fancode-Tennis", Grandstand 2 vs Doha, Qatar (ATP 500 - Qatar ExxonMobil Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140751_english_hls_5828baa4f660489_1ta-di_h264/index.m3u8
 #Generated on 1771170346
 #EXTINF:-1 tvg-id="0-9-zeetamil" group-title="Z5" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetamil/list/1920x1080listef67d9a80c9345bdb8254aa042944e0b.jpg",Zee Tamil HD
