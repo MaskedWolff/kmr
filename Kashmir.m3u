@@ -8757,7 +8757,9 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17716422
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1771642265~acl=/*~id=50674421607474220526230349740009~hmac=f2e4387e8d58ae017fb4fbd11f04b5233aa20990f14d66127ce5cee0e58c623f
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771642265~acl=/*~id=50674421607474220526230349740009~hmac=f2e4387e8d58ae017fb4fbd11f04b5233aa20990f14d66127ce5cee0e58c623f#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card_1771585889068.jpg" group-title="Fancode-Cricket", Sri Lanka Women vs West Indies Women (Sri Lanka Women tour of West Indies, 2026)
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771642265~acl=/*~id=50674421607474220526230349740009~hmac=f2e4387e8d58ae017fb4fbd11f04b5233aa20990f14d66127ce5cee0e58c623f#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014972/1770358159193999_BLIGA_26_MD23_Mainz-vs-Hamburger-SV_landscape_thumb.jpg" group-title="sonyliv-Football", Mainz vs Hamburger SV - MD 23 - 21 Feb 2026 [ENG] - Bundesliga 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771657385~acl=/*~id=18399793358333673725140499407730~hmac=5eb431a42e55949ddff8abef91eb1bb97869e5d9564b33f86a8860141bbfcec1
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card_1771585889068.jpg" group-title="Fancode-Cricket", Sri Lanka Women vs West Indies Women (Sri Lanka Women tour of West Indies, 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140138_english_hls_74b6af168927832_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140677_5968_VDS_PECC_FC-Web.jpg" group-title="Fancode-Cricket", Vredenburg/Saldanha CC vs Paarl East Cricket Club (Boland T20 Super League Finals 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140677_english_hls_edd21ba2066792_1ta-di_h264/index.m3u8
@@ -8773,4 +8775,6 @@ https://in-mc-fdlive.fancode.com/mumbai/140569_english_hls_2201b7773938313_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140212_english_hls_341b6aef4a2950_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Delray-Beach-Open-2026--old-card.png" group-title="Fancode-Tennis", Center Court vs Delray Beach, United States (ATP 250 - Delray Beach Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140299_english_hls_add56807e482715_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png" group-title="Fancode-Tennis", Quadra 1 vs Rio de Janeiro, Brazil (ATP 500 - Rio Open Presented by Claro 2026)
+https://in-mc-fdlive.fancode.com/mumbai/140760_english_hls_c612fca3fc69404_1ta-di_h264/index.m3u8
 404: Not Found
