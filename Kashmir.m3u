@@ -8758,10 +8758,8 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17717088
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1771708814~acl=/*~id=60645527698809475597691632956929~hmac=d8bd5cb0c7bd35d214d9133cbc65951d2deda42e5e288d5a7332caf3b2d675c3
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771708814~acl=/*~id=60645527698809475597691632956929~hmac=d8bd5cb0c7bd35d214d9133cbc65951d2deda42e5e288d5a7332caf3b2d675c3#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015364/1771401562482586_DP_World_Tour_Magical_Kenya_Open_Day3_landscape_thumb.jpg" group-title="sonyliv-Golf", Magical Kenya Open - Day 3 - 21 Feb 2026 [ENG] - DP World Tour
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771710025~acl=/*~id=45000284201704354257669396075717~hmac=87feb927397f6d0d650058fbc1afe5aadd8310e28562c97fa3dc6904894dcac5
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1771711841~acl=/*~id=39000372675647451967712105690745~hmac=7c61907128628b976bb5ec47de9d77716802499334cdf338bd11659ec5fa6518
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Western-Australia-vs-Victoria_fc-web.jpg" group-title="Fancode-Cricket", Victoria vs Western Australia (One Day Cup, 2025-26)
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140678_5968_PECC_PRC_FC-Web.jpg" group-title="Fancode-Cricket", Paarl East Cricket Club vs Paarl CC (Boland T20 Super League Finals 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140678_english_hls_6141da286025496_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139415_5802_MLC_MLV_1770723177598.png" group-title="Fancode-Football", Melbourne City vs Melbourne Victory (A League 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/139415_english_hls_164c09fef816235_1ta-di_h264/index.m3u8
 404: Not Found
