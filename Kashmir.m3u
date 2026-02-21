@@ -8757,11 +8757,12 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17716658
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1771665855~acl=/*~id=23545602994277148122368321609979~hmac=cd6b96b848d5cd9f628d5fc35d2e0115e38e05d7a6f563d9cba1219e8b4b1128
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771665855~acl=/*~id=23545602994277148122368321609979~hmac=cd6b96b848d5cd9f628d5fc35d2e0115e38e05d7a6f563d9cba1219e8b4b1128#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v2_1758034980092.jpg" group-title="Fancode-Cricket", New South Wales Breakers vs Tasmania Women (Women's National Cricket League, 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/133980_english_hls_8414bffddc72790_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web.jpg" group-title="Fancode-Cricket", Tasmania vs New South Wales (One Day Cup, 2025-26)
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771665855~acl=/*~id=23545602994277148122368321609979~hmac=cd6b96b848d5cd9f628d5fc35d2e0115e38e05d7a6f563d9cba1219e8b4b1128#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web.jpg" group-title="Fancode-Cricket", Tasmania vs New South Wales (One Day Cup, 2025-26)
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Western-Australia-vs-Victoria_fc-web.jpg" group-title="Fancode-Cricket", Victoria vs Western Australia (One Day Cup, 2025-26)
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139413_5802_WEL_AFC_1770722675928.png" group-title="Fancode-Football", Wellington Phoenix vs Auckland (A League 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/139413_english_hls_c160005ede19078_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139414_5802_SYD_BRB_1770723002209.png" group-title="Fancode-Football", Sydney FC vs Brisbane Roar (A League 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/139414_english_hls_f1fc11c95a98372_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770654460574.png" group-title="Fancode-Tennis", World Feed vs Rio de Janeiro, Brazil (ATP 500 - Rio Open Presented by Claro 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140289_english_hls_dfd9e8fb3e20043_1ta-di_h264/index.m3u8
 404: Not Found
