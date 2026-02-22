@@ -8757,11 +8757,7 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17718349
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1771834907~acl=/*~id=94055548194330335865611530045684~hmac=cab6cb208b341f1af8898ac991b97a02c0a13441beadade55b63bbe32906467c
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771834907~acl=/*~id=94055548194330335865611530045684~hmac=cab6cb208b341f1af8898ac991b97a02c0a13441beadade55b63bbe32906467c#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131072_5427_VIL_VAL_FC-Web.png" group-title="Fancode-Football", Villarreal CF vs Valencia CF (LALIGA 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/131072_english_hls_4406e5224f36759_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1770347072514/140426_CASACARDS_APP.png" group-title="Fancode-Football", Málaga vs Albacete (LALIGA Hypermotion 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/140426_english_hls_4dd6158bfe35817_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770654460574.png" group-title="Fancode-Tennis", World Feed vs Rio de Janeiro, Brazil (ATP 500 - Rio Open Presented by Claro 2026)
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771834907~acl=/*~id=94055548194330335865611530045684~hmac=cab6cb208b341f1af8898ac991b97a02c0a13441beadade55b63bbe32906467c#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1770654460574.png" group-title="Fancode-Tennis", World Feed vs Rio de Janeiro, Brazil (ATP 500 - Rio Open Presented by Claro 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140291_english_hls_e3a36aeb2a1248_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(6).png" group-title="Fancode-Tennis", Quadra Guga Kuerten vs Rio de Janeiro, Brazil (ATP 500 - Rio Open Presented by Claro 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140762_english_hls_235e455ade57861_1ta-di_h264/index.m3u8
@@ -8775,4 +8771,6 @@ https://in-mc-fdlive.fancode.com/mumbai/140576_english_hls_037beb412a84381_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140071_english_hls_6d517055d860962_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Delray-Beach-Open-2026--old-card.png" group-title="Fancode-Tennis", Center Court vs Delray Beach, United States (ATP 250 - Delray Beach Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140301_english_hls_4c07d44fef28613_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131072_5427_VIL_VAL_FC-Web.png" group-title="Fancode-Football", Villarreal CF vs Valencia CF (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131072_english_hls_4406e5224f36759_1ta-di_h264/index.m3u8
 404: Not Found
