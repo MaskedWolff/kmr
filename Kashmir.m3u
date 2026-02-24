@@ -8715,64 +8715,70 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/AndPriveHD_MOB/WDVLive/index.mpd?__hdnea_
 # Telegram: https://t.me/cloudply
 #EXTM3U
 #EXTINF:-1 tvg-id="SONY SAB HD.in" tvg-name="Sony Sab HD" group-title="Entertainment" tvg-logo="https://i.postimg.cc/LhKxf97t/sonysabhd.webp",Sony Sab HD
-https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SET HD.in" tvg-name="SET HD" group-title="Entertainment" tvg-logo="https://i.postimg.cc/zXgMfMMw/sethd.webp",SET HD
-https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="Sony Pal.in" tvg-name="Sony Pal" group-title="Entertainment" tvg-logo="https://i.postimg.cc/hjYyDb13/sonypal.webp",Sony Pal
-https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="Sony Wah.in" tvg-name="Sony WAH" group-title="Movies" tvg-logo="https://i.postimg.cc/HxJG9LSR/sonywah.webp",Sony Wah
-https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY MAX.in" tvg-name="Sony MAX" group-title="Movies" tvg-logo="https://i.postimg.cc/43JFB33w/sonymax.webp",Sony Max
-https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY MAX HD.in" tvg-name="Sony Max HD" group-title="Movies" tvg-logo="https://i.postimg.cc/RFhpxbKH/sonymaxhd.webp",Sony Max HD
-https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY MAX 2.in" tvg-name="Sony MAX2" group-title="Movies" tvg-logo="https://i.postimg.cc/vm32jdgy/sonymax2.webp",Sony Max 2
-https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011908/MAX2/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 1.in" tvg-name="Sony Sports Ten 1" group-title="Sports" tvg-logo="https://i.postimg.cc/k5y9R4vH/sony-ten-1.webp",Sony TEN 1 SD
-https://dishmt.slivcdn.com/hls/live/2011739-b/TEN1SD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011739-b/TEN1SD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 1 HD.in" tvg-name="Sony Sports Ten 1 HD" group-title="Sports" tvg-logo="https://i.postimg.cc/h4knM9Rr/sonysportsten1hd.webp",Sony TEN 1 HD
-https://dishmt.slivcdn.com/hls/live/2011747-b/TEN1HD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011747-b/TEN1HD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 2.in" tvg-name="Sony Sports Ten 2" group-title="Sports" tvg-logo="https://i.postimg.cc/027s4b8q/sonysportsten2.webp",Sony TEN 2 SD
-https://dishmt.slivcdn.com/hls/live/2020590-b/TEN2SD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020590-b/TEN2SD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 2 HD.in" tvg-name="Sony Sports Ten 2 HD" group-title="Sports" tvg-logo="https://i.postimg.cc/zG5rY8BH/sonysportsten2hd.webp",Sony TEN 2 HD
-https://dishmt.slivcdn.com/hls/live/2020434-b/TEN2HD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020434-b/TEN2HD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 3.in" tvg-name="Sony Sports Ten 3" group-title="Sports" tvg-logo="https://i.postimg.cc/XY80VmGH/sonysportsten3.webp",Sony TEN 3 SD
-https://dishmt.slivcdn.com/hls/live/2020592-b/TEN3SD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020592-b/TEN3SD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 3 HD.in" tvg-name="Sony Sports Ten 3 HD" group-title="Sports" tvg-logo="https://i.postimg.cc/xd1Vq5L0/sonysportsten3hd.webp",Sony TEN 3 HD
-https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 4.in" tvg-name="Sony Sports Ten 4" group-title="Sports" tvg-logo="https://i.postimg.cc/526M3sRj/Sony_Ten_4_HD.png",Sony TEN 4 SD
-https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020437/ten4sd/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 4 HD.in" tvg-name="Sony Sports Ten 4 HD" group-title="Sports" tvg-logo="https://i.postimg.cc/526M3sRj/Sony_Ten_4_HD.png",Sony TEN 4 HD
-https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 5.in" tvg-name="Sony Sports Ten 5" group-title="Sports" tvg-logo="https://i.postimg.cc/Mpjks892/sony-sports-ten-5.png",Sony TEN 5 SD
-https://dishmt.slivcdn.com/hls/live/2020594-b/SONYSIXSD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020594-b/SONYSIXSD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY SPORTS TEN 5 HD.in" tvg-name="Sony Sports Ten 5 HD" group-title="Sports" tvg-logo="https://i.postimg.cc/CKrT884b/sonysportsten5hd.webp",Sony TEN 5 HD
-https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2020593-b/SONYSIXHD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY YAY!.in" tvg-name="Sony Yay" group-title="Kids" tvg-logo="https://i.postimg.cc/FRwMWQ8R/sonyyay.webp",Sony Yay
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="SONY BBC Earth HD.in" tvg-name="Sony BBC Earth HD" group-title="Knowledge" tvg-logo="https://i.postimg.cc/sgPNYW3v/sonybbcearthhd.webp",Sony BBC Earth HD
-https://dishmt.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011907/SonyBBCEarthHD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="sony-pix-hd" tvg-name="Sony PIX HD" tvg-language="English" tvg-logo="https://i.postimg.cc/hGYnSKpg/SONY-PIX-HD.png" group-title="Movies",Sony PIX HD
-https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
-https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005
+https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1771998904~acl=/*~id=54901093987247681077961284109073~hmac=59ed99d3307115d5b40977b7f6ae82fa52324c8a00ee2698e6691ef05c3ba005#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015486/177168975407896_UCL26_Playoffs_Leg2_Atletico_Madrid_vs_Club_Brugge_21feb_eng_landscape_thumb.jpg" group-title="sonyliv-Football", Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [ENG] - UEFA Champions League 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772001328~acl=/*~id=45584445714390337121604704369708~hmac=f52d8554cf36f937d40d0e2f0c8c20ce0e0b327c4b91ae29bd9d8d6253a4d447
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772002539~acl=/*~id=37414197529082090303905846297515~hmac=0ed2658a7617931fc1290087694556ddc0ed1b92022950476277f85011190346#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015510/1771779538195235_UCL26_Playoffs_Leg2_inter_vs_bodo_21feb_landscape_thumb.jpg" group-title="sonyliv-Football",  Inter vs Bodo/Glimt - Play-offs Leg 2 - 25 Feb 2026 [ENG] - UEFA Champions League 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015510/1771779538195235_UCL26_Playoffs_Leg2_inter_vs_bodo_21feb_landscape_thumb.jpg" group-title="sonyliv-Football",  Inter vs Bodo/Glimt - Play-offs Leg 2 - 25 Feb 2026 [HIN] - UEFA Champions League 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015510/1771779538195235_UCL26_Playoffs_Leg2_inter_vs_bodo_21feb_landscape_thumb.jpg" group-title="sonyliv-Football",  Inter vs Bodo/Glimt - Play-offs Leg 2 - 25 Feb 2026 [TAM] - UEFA Champions League 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015510/1771779538195235_UCL26_Playoffs_Leg2_inter_vs_bodo_21feb_landscape_thumb.jpg" group-title="sonyliv-Football",  Inter vs Bodo/Glimt - Play-offs Leg 2 - 25 Feb 2026 [TEL] - UEFA Champions League 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015486/177168975407896_UCL26_Playoffs_Leg2_Atletico_Madrid_vs_Club_Brugge_21feb_eng_landscape_thumb.jpg" group-title="sonyliv-Football", Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [ENG] - UEFA Champions League 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015486/177168975407896_UCL26_Playoffs_Leg2_Atletico_Madrid_vs_Club_Brugge_21feb_eng_landscape_thumb.jpg" group-title="sonyliv-Football", Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [HIN] - UEFA Champions League 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772001328~acl=/*~id=45584445714390337121604704369708~hmac=f52d8554cf36f937d40d0e2f0c8c20ce0e0b327c4b91ae29bd9d8d6253a4d447
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015486/177168975407896_UCL26_Playoffs_Leg2_Atletico_Madrid_vs_Club_Brugge_21feb_eng_landscape_thumb.jpg" group-title="sonyliv-Football", Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [TAM] - UEFA Champions League 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772001328~acl=/*~id=45584445714390337121604704369708~hmac=f52d8554cf36f937d40d0e2f0c8c20ce0e0b327c4b91ae29bd9d8d6253a4d447
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015486/177168975407896_UCL26_Playoffs_Leg2_Atletico_Madrid_vs_Club_Brugge_21feb_eng_landscape_thumb.jpg" group-title="sonyliv-Football", Atletico vs Club Brugge - Play-offs Leg 2 - 24 Feb 2026 [TEL] - UEFA Champions League 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772001328~acl=/*~id=45584445714390337121604704369708~hmac=f52d8554cf36f937d40d0e2f0c8c20ce0e0b327c4b91ae29bd9d8d6253a4d447
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png" group-title="Fancode-Cricket", Pakistan Shaheens vs England Lions (England Lions and Pakistan Shaheens tour of UAE)
-https://in-mc-fdlive.fancode.com/mumbai/140663_english_hls_954543269d89050_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140685_5968_PRC_MAT_FC-Web.jpg" group-title="Fancode-Cricket", Paarl CC vs Maties Cricket Club (Boland T20 Super League Finals 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140685_english_hls_60c206ea1c26919_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Dubai-Duty-Free-Tennis-Championships_fc-web.jpg" group-title="Fancode-Tennis", World Feed vs Dubai, United Arab Emirates (ATP 500 - Dubai Duty Free Tennis Championship 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140894_english_hls_b9a119fb0153672_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo=" https://www.fancode.com/skillup-uploads/cms-media/Dubai-Duty-Free-Tennis-Championships_fc-web.jpg" group-title="Fancode-Tennis", Centre Court vs Dubai, United Arab Emirates (ATP 500 - Dubai Duty Free Tennis Championship 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140893_english_hls_416b1a365b26522_1ta-di_h264/index.m3u8
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015486/177169040176896_UCL26_Playoffs_Leg2_Newcastle_vs_Qarabag_21feb_eng_landscape_thumb.jpg" group-title="sonyliv-Football", Newcastle vs Qarabag - Play-offs Leg 2 - 25 Feb 2026 [ENG] - UEFA Champions League 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015510/1771779811066235_UCL26_Playoffs_Leg2_Leverkusen_vs_Olympiacos_21feb_landscape_thumb.jpg" group-title="sonyliv-Football", Leverkusen vs Olympiacos - Play-offs Leg 2 - 25 Feb 2026 [ENG] - UEFA Champions League 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2022315/DAI11ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772004965~acl=/*~id=92399620179857191318339646040432~hmac=417acb741733bc5c6b8a8314b8d6f3ca51849102854d40a46fc8a14f5af56bc2
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138437_5655_ALTW_AHS_fc-web.jpg" group-title="Fancode-Football", Al Taawoun vs Al Hilal SFC (Roshn Saudi League 2025-2026)
+https://in-mc-fdlive.fancode.com/mumbai/138437_english_hls_12b86f6c7f72758_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png" group-title="Fancode-Tennis", Court Jaime Fillol vs Santiago, Chile (ATP 250 - BCI Seguros Chile Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/index.m3u8
 404: Not Found
