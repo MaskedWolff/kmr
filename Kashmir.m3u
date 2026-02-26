@@ -8757,8 +8757,4 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17721015
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772101521~acl=/*~id=64366622277738296594966976299237~hmac=1905b31f80d374f5ec6c0941fb0f6b1fd843a5c974267990df43fa6c5abf3740
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772101521~acl=/*~id=64366622277738296594966976299237~hmac=1905b31f80d374f5ec6c0941fb0f6b1fd843a5c974267990df43fa6c5abf3740#EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1771899776744/140880_CASACARDS_APP.png" group-title="Fancode-Cricket", Hong Kong, China vs Kuwait (Men's T20I Series 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140880_english_hls_0cd60c3b2a42599_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140672_5970_JPN_BAH_fc-web.jpg" group-title="Fancode-Cricket", Bahrain vs Japan (Thailand Open Men's T20I Series 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140672_english_hls_b64712251f86407_1ta-di_h264/index.m3u8
-404: Not Found
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772101521~acl=/*~id=64366622277738296594966976299237~hmac=1905b31f80d374f5ec6c0941fb0f6b1fd843a5c974267990df43fa6c5abf3740404: Not Found
