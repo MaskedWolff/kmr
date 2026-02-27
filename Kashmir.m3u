@@ -6041,12 +6041,12 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17721877
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772187772~acl=/*~id=60617816087775250781879317222661~hmac=62ba8965804d0fe30a9a248677d443a85034e7f554acc8fe1fcd1acf00f3aa61
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772187772~acl=/*~id=60617816087775250781879317222661~hmac=62ba8965804d0fe30a9a248677d443a85034e7f554acc8fe1fcd1acf00f3aa61#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140673_5970_JPN_BHU_fc-web.jpg" group-title="Fancode-Cricket", Japan vs Bhutan (Thailand Open Men's T20I Series 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140673_english_hls_5cad73958e85788_1ta-di_h264/index.m3u8
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772187772~acl=/*~id=60617816087775250781879317222661~hmac=62ba8965804d0fe30a9a248677d443a85034e7f554acc8fe1fcd1acf00f3aa61#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015614/1772094832114709_NZw_vs_ZIMw_2ndT20i_landscape_thumb.jpg" group-title="sonyliv-Cricket", 2nd T20I - 27 Feb 2026 [ENG] - Zimbabwe Women's Tour of New Zealand 2026
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1772214996~acl=/*~id=74951925039654515283209712787805~hmac=e57d6bcf765bc968e68448c6a3691c26b99e7f34099bdba9e0368d917264a74b
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png" group-title="Fancode-Cricket", England Lions vs Pakistan Shaheens (England Lions and Pakistan Shaheens tour of UAE)
+https://in-mc-fdlive.fancode.com/mumbai/140664_english_hls_c6d012446437197_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Abierto-Mexicano-_web.jpg" group-title="Fancode-Tennis", World Feed vs Acapulco, Mexico (ATP 500 - Abierto Mexicano Telcel)
 https://in-mc-fdlive.fancode.com/mumbai/140355_english_hls_f0d1a215da37548_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Abierto-Mexicano-_web.jpg" group-title="Fancode-Tennis", Grandstand vs Acapulco, Mexico (ATP 500 - Abierto Mexicano Telcel)
-https://in-mc-fdlive.fancode.com/mumbai/140354_english_hls_3a3bb01d3780775_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Abierto-Mexicano-_web.jpg" group-title="Fancode-Tennis", Estadio vs Acapulco, Mexico (ATP 500 - Abierto Mexicano Telcel)
 https://in-mc-fdlive.fancode.com/mumbai/140840_english_hls_f20d9e132f35042_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1771915359087.png" group-title="Fancode-MotoGP", Day 1 vs Buriram International Circuit (PT GRAND PRIX OF THAILAND 2026)
