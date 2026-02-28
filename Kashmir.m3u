@@ -6042,11 +6042,9 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17723422
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772342285~acl=/*~id=17475027550137033800166847962067~hmac=1543e156f8825cb58a71d705e4138269b0c1ee8508beaa340116013a7ac4891a
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772342285~acl=/*~id=17475027550137033800166847962067~hmac=1543e156f8825cb58a71d705e4138269b0c1ee8508beaa340116013a7ac4891a#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015083/1770617250355953_BLIGA_26_Dortmund-vs-Bayern_landscape_thumb.jpg" group-title="sonyliv-Football", Borussia Dortmund vs Bayern Munich - MD 24 - 28 Feb 2026 [ENG] - Bundesliga 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772344101~acl=/*~id=99470174344559443331849477694094~hmac=63d544c81933022bd92a732fdfb8826afa7177e0aee72693149e39eb6272410f
+https://sonydaimenew.akamaized.net/hls/live/2022317/DAI13ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772344707~acl=/*~id=09121534005624232527727614621049~hmac=b0c12d7f8648cc8f7ff186bdb3f8e14f7020cd870d285ee2b4b8a306c6d9905f
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg" group-title="Fancode-Cricket", West Indies Women vs Sri Lanka Women (Sri Lanka Women tour of West Indies, 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140141_english_hls_c7e54df6c689484_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140692_5968_VDS_PRC_FC-Web.jpg" group-title="Fancode-Cricket", Vredenburg/Saldanha CC vs Paarl CC (Boland T20 Super League Finals 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140692_english_hls_4beadff46b45381_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131087_5427_MRC_RS_FC-Web.png" group-title="Fancode-Football", RCD Mallorca vs Real Sociedad (LALIGA 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/131087_english_hls_e9a90d99ac98527_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", Main Feed - Day 3 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
@@ -6059,6 +6057,4 @@ https://in-mc-fdlive.fancode.com/mumbai/140775_english_hls_32ed92903554382_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140777_english_hls_9609f6d6ce80839_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", World Feed - Day 3 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140773_english_hls_f0d09727f189310_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131084_5427_BAR_VIL_FC-Web.png" group-title="Fancode-Football", FC Barcelona vs Villarreal CF (LALIGA 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/131084_english_hls_c2042aefad65938_1ta-di_h264/index.m3u8
 404: Not Found
