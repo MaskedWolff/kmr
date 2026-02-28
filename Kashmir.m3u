@@ -6041,14 +6041,16 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17722707
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772270764~acl=/*~id=52805690638518676747807339974637~hmac=741dc7d0be6d25fb49393151387385d80991b6f5f1c521acf9b17a6cd5e9cbd4
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772270764~acl=/*~id=52805690638518676747807339974637~hmac=741dc7d0be6d25fb49393151387385d80991b6f5f1c521acf9b17a6cd5e9cbd4#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140671_5970_TL_BHU_fc-web.jpg" group-title="Fancode-Cricket", Thailand vs Bhutan (Thailand Open Men's T20I Series 2026)
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772270764~acl=/*~id=52805690638518676747807339974637~hmac=741dc7d0be6d25fb49393151387385d80991b6f5f1c521acf9b17a6cd5e9cbd4#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140671_5970_TL_BHU_fc-web.jpg" group-title="Fancode-Cricket", Bhutan vs Thailand (Thailand Open Men's T20I Series 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140675_english_hls_91116a5ec721003_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139419_5802_AFC_MLC_1770724032867.png" group-title="Fancode-Football", Auckland vs Melbourne City (A League 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/139419_english_hls_d66694d18114618_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Abierto-Mexicano-_web.jpg" group-title="Fancode-Tennis", World Feed vs Acapulco, Mexico (ATP 500 - Abierto Mexicano Telcel)
 https://in-mc-fdlive.fancode.com/mumbai/140356_english_hls_de8c3b175062685_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Abierto-Mexicano-_web.jpg" group-title="Fancode-Tennis", Estadio vs Acapulco, Mexico (ATP 500 - Abierto Mexicano Telcel)
 https://in-mc-fdlive.fancode.com/mumbai/140843_english_hls_1eaa974a8891278_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Abierto-Mexicano-_web.jpg" group-title="Fancode-Tennis", Grandstand vs Acapulco, Mexico (ATP 500 - Abierto Mexicano Telcel)
-https://in-mc-fdlive.fancode.com/mumbai/140842_english_hls_fa1a4b218162265_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(4)_1771915359087.png" group-title="Fancode-MotoGP", Day 2 vs Buriram International Circuit (PT GRAND PRIX OF THAILAND 2026)
 https://in-mc-fdlive.fancode.com/mumbai/139925_english_hls_97398699b253223_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Ford-Women's-NSW-Open_fc-web.jpg" group-title="Fancode-Golf", Day 1 vs Wollongong Golf Club (Ford Women's NSW Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/140783_english_hls_20fcdf78d45827_1ta-di_h264/index.m3u8
 404: Not Found
