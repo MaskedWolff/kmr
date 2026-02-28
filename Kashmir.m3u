@@ -6041,12 +6041,12 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17723501
 #EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi" tvg-language="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png" group-title="Entertainment",Sony Marathii
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772350159~acl=/*~id=29588548855979588907122600271251~hmac=40764f944b3d502618f05785b42d39495de1b48f04cec8f0a6ee3eba4be6233d
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772350159~acl=/*~id=29588548855979588907122600271251~hmac=40764f944b3d502618f05785b42d39495de1b48f04cec8f0a6ee3eba4be6233d#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg" group-title="Fancode-Cricket", West Indies Women vs Sri Lanka Women (Sri Lanka Women tour of West Indies, 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140141_english_hls_c7e54df6c689484_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140703_5655_ALF_ANF_fc-web.jpg" group-title="Fancode-Football", Al-Fayha FC vs Al-Nassr FC (Roshn Saudi League 2025-2026)
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772350159~acl=/*~id=29588548855979588907122600271251~hmac=40764f944b3d502618f05785b42d39495de1b48f04cec8f0a6ee3eba4be6233d#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140703_5655_ALF_ANF_fc-web.jpg" group-title="Fancode-Football", Al-Fayha FC vs Al-Nassr FC (Roshn Saudi League 2025-2026)
 https://in-mc-fdlive.fancode.com/mumbai/140703_english_hls_481589922736134_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131080_5427_RO_ATL_FC-Web.png" group-title="Fancode-Football", Real Oviedo vs Atletico de Madrid (LALIGA 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/131080_english_hls_8f490769c339284_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1772160982905/140822_CASACARDS_APP.png" group-title="Fancode-Football", Castellón vs Racing Club (LALIGA Hypermotion 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/140822_english_hls_7f47cead1535237_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png" group-title="Fancode-Tennis", Court Jaime Fillol vs Santiago, Chile (ATP 250 - BCI Seguros Chile Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/140362_english_hls_40bb53d3a019416_1ta-di_h264/index.m3u8
 404: Not Found
