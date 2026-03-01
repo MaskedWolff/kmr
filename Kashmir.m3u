@@ -6042,11 +6042,15 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17724252
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772425287~acl=/*~id=13866809674892704014332272688676~hmac=7ffb70c717bf9fca94373e4298abfb4a943d64e965801c8bb63fcbe4841a0db6
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772425287~acl=/*~id=13866809674892704014332272688676~hmac=7ffb70c717bf9fca94373e4298abfb4a943d64e965801c8bb63fcbe4841a0db6#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015686/1772263891150596_BLIGA_26_MD24_Eintracht-Frankfurt-vs-SC-Freiburg_landscape_thumb.jpg" group-title="sonyliv-Football", Eintracht Frankfurt vs SC Freiburg - MD 24 - 1 Mar 2026 [ENG] - Bundesliga 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772426503~acl=/*~id=06159958170493247685756451991799~hmac=e13893b78aa071b41975e6c1236047867d66cebf7e2989514aba2937ba67f5da
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772428322~acl=/*~id=24895525054627494460032193310698~hmac=8d20cae497857cf454266f97a0c5fbe7fecd906f8b21e4e4c268aa80eb088764
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg" group-title="Fancode-Cricket", West Indies Women vs Sri Lanka Women (Sri Lanka Women tour of West Indies, 2026)
+https://in-mc-fdlive.fancode.com/mumbai/140142_english_hls_e8f8ed66a53698_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Boland-T20-Super-League_FC-WEB.png" group-title="Fancode-Cricket", Paarl East Cricket Club vs Van der Stel Cricket Club (Boland T20 Super League Finals 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140695_english_hls_befd91410386452_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png" group-title="Fancode-Football", Valencia CF vs CA Osasuna (LALIGA 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/131083_english_hls_39041d3f9561489_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131085_5427_RB_SEV_FC-Web.png" group-title="Fancode-Football", Real Betis vs Sevilla FC (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131085_english_hls_b468dd5cc833761_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", Featured Groups - Day 4 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140781_english_hls_a231eb42595351_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", Main Feed - Day 4 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
@@ -6055,6 +6059,4 @@ https://in-mc-fdlive.fancode.com/mumbai/140779_english_hls_a1d77d46e43033_1ta-di
 https://in-mc-fdlive.fancode.com/mumbai/140782_english_hls_f4fd2fec2656049_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", Featured Holes - Day 4 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140780_english_hls_1a4d1e64e556602_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg" group-title="Fancode-Cricket", West Indies Women vs Sri Lanka Women (Sri Lanka Women tour of West Indies, 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140142_english_hls_e8f8ed66a53698_1ta-di_h264/index.m3u8
 404: Not Found
