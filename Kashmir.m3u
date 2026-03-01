@@ -6042,15 +6042,13 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17724179
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772417998~acl=/*~id=76475487717403000918934399518534~hmac=ea4c4985a160b297fd15e377ec6fb8bdf991a7c9dd4a6693dc5da879af4fe0d9
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772417998~acl=/*~id=76475487717403000918934399518534~hmac=ea4c4985a160b297fd15e377ec6fb8bdf991a7c9dd4a6693dc5da879af4fe0d9#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015686/1772263685247596_BLIGA_26_MD24_VfB-Stuttgart-vs-VfL-Wolfsburg_landscape_thumb.jpg" group-title="sonyliv-Football", VfB Stuttgart vs VfL Wolfsburg - MD 24 - 1 Mar 2026 [ENG] - Bundesliga 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772419217~acl=/*~id=60871938021608540863497915662528~hmac=c66ebe57dcb6a59968ee654ed875bc7c6919a4817b39991d5a1e023004324579
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772421041~acl=/*~id=74992572353830898744119437439083~hmac=ca22aadd9c775c1f5ddce24fa527253107d155a1282287a50647025a57a29f71
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015688/1772277910909225_DP_World_Day4_landscape_thumb.jpg" group-title="sonyliv-Golf", Investec South African Open Day 4 - 1 Mar 2026 [ENG] - DP World Tour
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772419217~acl=/*~id=60871938021608540863497915662528~hmac=c66ebe57dcb6a59968ee654ed875bc7c6919a4817b39991d5a1e023004324579
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Boland-T20-Super-League_FC-WEB.png" group-title="Fancode-Cricket", Maties Cricket Club vs Paarl East Cricket Club (Boland T20 Super League Finals 2026)
-https://in-mc-fdlive.fancode.com/mumbai/140694_english_hls_5a3a9ee8c631732_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131086_5427_ELC_ESL_FC-Web.png" group-title="Fancode-Football", Elche CF vs RCD Espanyol (LALIGA 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/131086_english_hls_36546f8a7656011_1ta-di_h264/index.m3u8
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772421041~acl=/*~id=74992572353830898744119437439083~hmac=ca22aadd9c775c1f5ddce24fa527253107d155a1282287a50647025a57a29f71
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140451_5956_MCFC_NEUFC_fc-web_1772229182804.jpg" group-title="Fancode-Football", Mumbai City FC vs NorthEast United FC (ISL 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/140451_english_hls_dd1e27ec0836523_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png" group-title="Fancode-Football", Valencia CF vs CA Osasuna (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131083_english_hls_39041d3f9561489_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1772160982911/140824_CASACARDS_APP.png" group-title="Fancode-Football", Real Sociedad vs Deportivo La Coruna (LALIGA Hypermotion 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/140824_english_hls_63a18503a8455_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", Featured Groups - Day 4 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
@@ -6061,4 +6059,6 @@ https://in-mc-fdlive.fancode.com/mumbai/140779_english_hls_a1d77d46e43033_1ta-di
 https://in-mc-fdlive.fancode.com/mumbai/140782_english_hls_f4fd2fec2656049_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", Featured Holes - Day 4 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140780_english_hls_1a4d1e64e556602_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131086_5427_ELC_ESL_FC-Web.png" group-title="Fancode-Football", Elche CF vs RCD Espanyol (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131086_english_hls_36546f8a7656011_1ta-di_h264/index.m3u8
 404: Not Found
