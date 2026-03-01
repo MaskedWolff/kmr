@@ -6042,7 +6042,7 @@ https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8?hdnea=exp=17724361
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=1772436188~acl=/*~id=81667270339806237054074770430780~hmac=624a53311fb429f4653551a530152682f29e379ee6ca5647dda476e4fc55c724
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1772436188~acl=/*~id=81667270339806237054074770430780~hmac=624a53311fb429f4653551a530152682f29e379ee6ca5647dda476e4fc55c724#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015686/1772264080060596_BLIGA_26_MD24_Hamburger-SV-vs-RB-Leipzig_landscape_thumb.jpg" group-title="sonyliv-Football", Hamburger SV vs RB Leipzig - MD 24 - 1 Mar 2026 [ENG] - Bundesliga 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772437397~acl=/*~id=14990562207788729279020229858953~hmac=61a54c84c22496e11481cda8168399cfd9f1d6265d5f83cc40bfa2e52f3f61f6
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772439211~acl=/*~id=86151156202887471052648105720149~hmac=94b0f167ffec6d223fc0dcac24cbee21de002bd5ed4aea71c4fb51afbe148a3c
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Sri-Lanka-Women-tour-of-West-Indies,-2026-old-card-(1).jpg" group-title="Fancode-Cricket", West Indies Women vs Sri Lanka Women (Sri Lanka Women tour of West Indies, 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140142_english_hls_e8f8ed66a53698_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131081_5427_GIR_CEV_FC-Web.png" group-title="Fancode-Football", Girona FC vs RC Celta (LALIGA 2025-26)
@@ -6057,6 +6057,4 @@ https://in-mc-fdlive.fancode.com/mumbai/140782_english_hls_f4fd2fec2656049_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/140780_english_hls_1a4d1e64e556602_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cognizant-Classic-in-The-Palm-Beaches-2026-old-match-card-.png" group-title="Fancode-Golf", World Feed - Day 4 vs PGA National Resort, Florida (Cognizant Classic in The Palm Beaches 2026)
 https://in-mc-fdlive.fancode.com/mumbai/140778_english_hls_78a6fea50d59701_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131085_5427_RB_SEV_FC-Web.png" group-title="Fancode-Football", Real Betis vs Sevilla FC (LALIGA 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/131085_english_hls_b468dd5cc833761_1ta-di_h264/index.m3u8
 404: Not Found
