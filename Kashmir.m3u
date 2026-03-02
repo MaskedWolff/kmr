@@ -302,7 +302,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_Select_1_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c2c048e439d65316beeda6ef64d5d0f8:e2fdc132cbdee65501b845ce414fce39
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/output/index.mpd?__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b&xxx=%7Ccookie=__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b
+https://jiotvbpkmob.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_1_BTS/output/index.mpd?__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b&xxx=%7Ccookie=__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b
 #EXTINF:-1 tvg-id="1114" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_2.png" group-title="Sports", Star Sports Select 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ec7d009d07aa5cbc81a441880530dfa5:8147983ad7402ebfc222d28b667a196f
@@ -313,7 +313,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_Select_2_BTS/output/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6017d0514d425fa38f6e80ba6dcc852f:0018944b00adf2078f62386f30c68b74
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0
-https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/output/index.mpd?__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b&xxx=%7Ccookie=__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b
+https://jiotvbpkmob.cdn.jio.com/bpk-tv/Star_Sports_Select_HD_2_BTS/output/index.mpd?__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b&xxx=%7Ccookie=__hdnea__=st=1766988031~exp=1767074431~acl=/*~hmac=6cfb9058e9cca3aba3a03ccf8f285005cc777c175616ea25f56c505982cce08b
 #EXTINF:-1 tvg-id="1375" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_International_HD.png" group-title="Kids", Disney International HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d0e021aa91c65e68a7028c2a6a762eca:d50822403365e360d12840251cecee84
