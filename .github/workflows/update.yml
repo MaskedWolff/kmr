@@ -15,21 +15,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # -------- Download 3 Sources --------
-      - name: Download playlists
+      # -------- Install jq --------
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      # -------- Download JSON Sources --------
+      - name: Download JSON sources
         run: |
           set -e
-          curl -fL "${{ secrets.SRC1 }}" -o 1.m3u
-          curl -fL "${{ secrets.SRC2 }}" -o 2.m3u
-          curl -fL "${{ secrets.SRC3 }}" -o 3.m3u
+          curl -fL "${{ secrets.SRC1 }}" -o 1.json
+          curl -fL "${{ secrets.SRC2 }}" -o 2.json
+          curl -fL "${{ secrets.SRC3 }}" -o 3.json
 
-      # -------- Build Kashmir.m3u --------
-      - name: Build final playlist
+      # -------- Convert JSON to M3U --------
+      - name: Convert JSON to M3U
         run: |
           echo "#EXTM3U" > Kashmir.m3u
 
-          for f in 1.m3u 2.m3u 3.m3u; do
-            sed '1{/^#EXTM3U/d}; s/\r$//; /^$/d' "$f" >> Kashmir.m3u
+          for f in 1.json 2.json 3.json; do
+            jq -r '
+              .[] |
+              "#EXTINF:-1 tvg-logo=\"" + .logo + "\" group-title=\"" + .groupTitle + "\"," + .name,
+              .link,
+              "#KODIPROP:inputstream.adaptive.license_type=" + .drmScheme,
+              "#KODIPROP:inputstream.adaptive.license_key=" + .drmLicense,
+              ""
+            ' "$f" >> Kashmir.m3u
           done
 
       # -------- Remove duplicate clearkey lines --------
