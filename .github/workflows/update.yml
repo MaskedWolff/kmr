@@ -15,26 +15,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # -------- Download hidden sources --------
+      # -------- Download 3 Sources --------
       - name: Download playlists
         run: |
-          curl -sL "${{ secrets.SRC1 }}" -o 1.m3u
-          curl -sL "${{ secrets.SRC2 }}" -o 2.m3u
-          curl -sL "${{ secrets.SRC3 }}" -o 3.m3u
-          curl -sL "${{ secrets.SRC4 }}" -o 4.m3u
-          curl -sL "${{ secrets.SRC5 }}" -o 5.m3u
-
-      # -------- Rename SRC5 group to Z5 --------
-      - name: Rename Zee5 group
-        run: |
-          sed -i 's/group-title="[^"]*"/group-title="Z5"/g' 5.m3u
+          set -e
+          curl -fL "${{ secrets.SRC1 }}" -o 1.m3u
+          curl -fL "${{ secrets.SRC2 }}" -o 2.m3u
+          curl -fL "${{ secrets.SRC3 }}" -o 3.m3u
 
       # -------- Build Kashmir.m3u --------
       - name: Build final playlist
         run: |
           echo "#EXTM3U" > Kashmir.m3u
 
-          for f in 1.m3u 2.m3u 3.m3u 4.m3u 5.m3u; do
+          for f in 1.m3u 2.m3u 3.m3u; do
             sed '1{/^#EXTM3U/d}; s/\r$//; /^$/d' "$f" >> Kashmir.m3u
           done
 
