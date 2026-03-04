@@ -16,29 +16,31 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # -------- Download Sources --------
-      - name: Download source playlists
+      - name: Download sources
         run: |
           curl -fL "${{ secrets.SRCFKODE }}" -o src1.m3u
           curl -fL "${{ secrets.SRCJTV }}" -o src2.m3u
           curl -fL "${{ secrets.SRCLIVEVENTS }}" -o src3.m3u
 
-      # -------- Merge + Inject Cookie --------
       - name: Merge playlists
         run: |
           echo "#EXTM3U" > Kashmir.m3u
+          grep -hv "^#EXTM3U" src1.m3u src2.m3u src3.m3u > merged.m3u
 
-          grep -hv "^#EXTM3U" src1.m3u src2.m3u src3.m3u | \
-          sed '/#EXTVLCOPT:http-user-agent=billavtoriginals/a #EXTVLCOPT:cookie=__hdnea__=st=1772569507~exp=1772655907~acl=/*~hmac=392bc917ffad0d4d27c61d8617c3dd3732ff28187ea1174ec88610955112a26c' \
-          >> Kashmir.m3u
+      - name: Inject cookies
+        run: |
+          awk '
+          /index\.mpd/{
+            print "#EXTVLCOPT:cookie=__hdnea__=st=1772569507~exp=1772655907~acl=/*~hmac=392bc917ffad0d4d27c61d8617c3dd3732ff28187ea1174ec88610955112a26c"
+          }
+          {print}
+          ' merged.m3u >> Kashmir.m3u
 
-      # -------- Remove duplicate lines --------
-      - name: Clean duplicates
+      - name: Remove duplicate lines
         run: |
           awk '!seen[$0]++' Kashmir.m3u > temp.m3u
           mv temp.m3u Kashmir.m3u
 
-      # -------- Commit changes --------
       - name: Commit playlist
         run: |
           git config user.name github-actions
