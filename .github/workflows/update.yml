@@ -1,4 +1,4 @@
-name: Build IPTV
+name: Build IPTV Playlist
 
 on:
   workflow_dispatch:
@@ -13,45 +13,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      # -------- Download M3U Sources --------
-      - name: Download M3U sources
+      - name: Download source playlists
         run: |
-          set -e
-          curl -fL "${{ secrets.SRCFKODE }}" -o 1.m3u
-          curl -fL "${{ secrets.SRCJTV }}" -o 2.m3u
-          curl -fL "${{ secrets.SRCLIVEVENTS }}" -o 3.m3u
+          curl -L "${{ secrets.SRCFKODE }}" -o src1.m3u
+          curl -L "${{ secrets.SRCJTV }}" -o src2.m3u
+          curl -L "${{ secrets.SRCLIVEVENTS }}" -o src3.m3u
 
-      # -------- Merge M3U Files --------
       - name: Merge playlists
         run: |
           echo "#EXTM3U" > Kashmir.m3u
+          grep -hv "^#EXTM3U" src1.m3u src2.m3u src3.m3u >> Kashmir.m3u
 
-          for f in 1.m3u 2.m3u 3.m3u; do
-            grep -v "^#EXTM3U" "$f" >> Kashmir.m3u
-          done
-
-      # -------- Remove duplicate clearkey lines --------
-      - name: Clean duplicate clearkey tags
+      - name: Remove duplicate clearkey lines
         run: |
-          awk '
-          {
-            if ($0 == "#KODIPROP:inputstream.adaptive.license_type=clearkey") {
-              if (prev == $0) next
-            }
-            print
-            prev = $0
-          }
-          ' Kashmir.m3u > cleaned.m3u
-          mv cleaned.m3u Kashmir.m3u
+          awk '!seen[$0]++' Kashmir.m3u > temp.m3u
+          mv temp.m3u Kashmir.m3u
 
-      # -------- Commit only if changed --------
-      - name: Commit playlist
+      - name: Commit changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add Kashmir.m3u
-          git diff --cached --quiet && exit 0
-          git commit -m "Auto update Kashmir IPTV playlist"
+          git diff --cached --quiet || git commit -m "Auto update playlist"
           git push
