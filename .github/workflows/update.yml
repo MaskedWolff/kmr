@@ -19,9 +19,9 @@ jobs:
       - name: Download M3U sources
         run: |
           set -e
-          curl -fL "${{ secrets.SRC1 }}" -o 1.m3u
-          curl -fL "${{ secrets.SRC2 }}" -o 2.m3u
-          curl -fL "${{ secrets.SRC3 }}" -o 3.m3u
+          curl -fL "${{ secrets.SRCFKODE }}" -o 1.m3u
+          curl -fL "${{ secrets.SRCJTV }}" -o 2.m3u
+          curl -fL "${{ secrets.SRCLIVEVENTS }}" -o 3.m3u
 
       # -------- Merge M3U Files --------
       - name: Merge playlists
