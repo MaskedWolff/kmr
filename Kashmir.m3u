@@ -25,6 +25,7 @@ https://in-mc-fdlive.fancode.com/mumbai/141228_english_hls_7a2e1d1fb551505_1ta-d
 #KODIPROP:inputstream.adaptive.license_key=14619c8b69cb52e0a1cc4e348e2b195f:e98a0c4f320c05ef65b32f3af7b05b47
 #EXTVLCOPT:http-user-agent=billatvoriginals
 #EXTHTTP:{ "cookie":"__hdnea__=st=1772569507~exp=1772655907~acl=/*~hmac=392bc917ffad0d4d27c61d8617c3dd3732ff28187ea1174ec88610955112a26c" }
+#EXTVLCOPT:cookie=__hdnea__=st=1772569507~exp=1772655907~acl=/*~hmac=392bc917ffad0d4d27c61d8617c3dd3732ff28187ea1174ec88610955112a26c
 http://jiotvbpkmob.cdn.jio.com/bpk-tv/10_TV_BTS/output/index.mpd
 #EXTINF:-1 tvg-id="002" group-title="News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/22Scope_News.png",22Scope News
 #KODIPROP:inputstream.adaptive.license_key=742694c49c035be68ddaa4387a2dbd65:4a5d7079441fb93ebbaf62501e91b640
