@@ -1,4 +1,28 @@
 #EXTM3U
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png" group-title="Fancode-Football", Rayo Vallecano vs Real Oviedo (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131055_english_hls_8a223ba61290067_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", B Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/141006_english_hls_6bf703572476628_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", A Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/141005_english_hls_feaf78b80227098_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", World Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/141004_english_hls_30fd12082358848_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", G Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/141231_english_hls_474c4b4f5a61793_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", E Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/141230_english_hls_0833749b2097113_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", D Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/141229_english_hls_7fca51d35a9762_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", C Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
+https://in-mc-fdlive.fancode.com/mumbai/141228_english_hls_7a2e1d1fb551505_1ta-di_h264/index.m3u8
+
 
 #EXTINF:-1 tvg-id="001" group-title="News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/10_TV.png",10 TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5952,30 +5976,6 @@ http://jiotvbpkmob.cdn.jio.com/bpk-tv/Zing_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-user-agent=billatvoriginals
 #EXTHTTP:{ "cookie":"__hdnea__=st=1772569507~exp=1772655907~acl=/*~hmac=392bc917ffad0d4d27c61d8617c3dd3732ff28187ea1174ec88610955112a26c" }
 http://jiotvbpkmob.cdn.jio.com/bpk-tv/Zoom_BTS/output/index.mpd
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png" group-title="Fancode-Football", Rayo Vallecano vs Real Oviedo (LALIGA 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/131055_english_hls_8a223ba61290067_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", B Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141006_english_hls_6bf703572476628_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", A Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141005_english_hls_feaf78b80227098_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", World Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141004_english_hls_30fd12082358848_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", G Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141231_english_hls_474c4b4f5a61793_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", E Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141230_english_hls_0833749b2097113_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", D Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141229_english_hls_7fca51d35a9762_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", C Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141228_english_hls_7a2e1d1fb551505_1ta-di_h264/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768136250489648_bliga26_MD17_Hamburg_SV_vs_Leverkusen_11jan_landscape_thumb.jpg" group-title="sonyliv-Football", Hamburger SV vs Bayer Leverkusen - MD 17 - 5 Mar 2026 [ENG] - Bundesliga 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772694991~acl=/*~id=37168631253243694380417105149059~hmac=b2a9142b7dc23f44c60cd92b9b91f91162cf20ee45b0e6dffd2a754a7fed3ab9
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015794/177265200486877_Bliga26_MD17_hamburger_SV_vs_Leverkusen_5mar_landscape_thumb.jpg" group-title="sonyliv-Football", Hamburger SV vs Bayer Leverkusen - MD 17 - 5 Mar 2026 [ENG] - Bundesliga 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1772695596~acl=/*~id=20697879836733542470180899417149~hmac=724280c0217285bbcc0b25c953d0fe71092baba722c93eda1eceb6d21047b8c1
 
