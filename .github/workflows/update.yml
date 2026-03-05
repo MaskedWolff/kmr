@@ -23,12 +23,15 @@ jobs:
       - name: Convert JSON to M3U
         run: |
           echo "#EXTM3U" > Kashmir.m3u
-          jq -r '.[] |
-          "#EXTINF:-1 tvg-name=\"" + .name + "\" tvg-logo=\"" + .logo + "\" group-title=\"Sports\"," + .name,
-          "#KODIPROP:inputstream.adaptive.license_type=" + .drmScheme,
-          "#KODIPROP:inputstream.adaptive.license_key=" + .drmLicense,
-          "#EXTVLCOPT:cookie=" + .cookie,
-          .link' src.json >> Kashmir.m3u
+          jq -r '
+          to_entries[] |
+          "#EXTINF:-1 tvg-id=\"\(.key+1000)\" group-title=\"Jiostar\" tvg-logo=\"\(.value.logo)\",\(.value.name)",
+          "#KODIPROP:inputstream.adaptive.license_type=\(.value.drmScheme)",
+          "#KODIPROP:inputstream.adaptive.license_key=\(.value.drmLicense)",
+          "#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0",
+          "#EXTHTTP:{\"cookie\":\"\(.value.cookie)\"}",
+          "\(.value.link)?\(.value.cookie)&xxx=%7Ccookie=\(.value.cookie)"
+          ' src.json >> Kashmir.m3u
 
       - name: Commit playlist
         run: |
