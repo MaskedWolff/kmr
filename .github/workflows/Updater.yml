@@ -37,7 +37,7 @@ jobs:
         run: |
           curl -L "https://raw.githubusercontent.com/Sufiyan123yivh/Testing/refs/heads/main/jtv.m3u.bak" -o jtv.m3u
 
-      - name: Fix JTV playlist
+      - name: Fix Kmr
         run: |
           echo "#EXTM3U" > jtv_fixed.m3u
           awk '
