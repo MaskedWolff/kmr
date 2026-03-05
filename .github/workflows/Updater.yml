@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # ---------- JSON → M3U ----------
+      # -------- JSON → M3U --------
       - name: Download JSON source
         run: |
           curl -L "${{ secrets.SRCFKODE }}" -o src.json
@@ -32,7 +32,7 @@ jobs:
           "#EXTHTTP:{\"cookie\":\"" + .cookie + "\"}",
           (.link + "?" + .cookie + "&xxx=%7Ccookie=" + .cookie)' src.json >> Kashmir.m3u
 
-      # ---------- FIX JTV M3U ----------
+      # -------- FIX JTV M3U --------
       - name: Download JTV playlist
         run: |
           curl -L "${{ secrets.SRCJTX }}" -o jtv.m3u
@@ -41,15 +41,16 @@ jobs:
         run: |
           echo "#EXTM3U" > fix_kmr.m3u
           awk '
-          /#EXTINF/ {print; next}
-          /#KODIPROP/ {print; next}
+          /#EXTHTTP/ {
+            match($0, /__hdnea__=[^"]+/, a)
+            cookie=a[0]
+            print
+            next
+          }
 
           /index\.mpd/ {
-            if (match($0, /\?(__hdnea__=[^&]+)/, a)) {
-              cookie=a[1]
-              print "#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0"
-              print "#EXTHTTP:{\"cookie\":\"" cookie "\"}"
-              print $0 "&xxx=%7Ccookie=" cookie
+            if(cookie!=""){
+              print $0 "?" cookie "&xxx=%7Ccookie=" cookie
             } else {
               print
             }
