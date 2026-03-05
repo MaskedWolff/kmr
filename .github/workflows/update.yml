@@ -16,30 +16,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Download sources
+      - name: Download JSON source
         run: |
-          curl -fL "${{ secrets.SRCFKODE }}" -o src1.m3u
-          curl -fL "${{ secrets.SRCJTV }}" -o src2.m3u
-          curl -fL "${{ secrets.SRCLIVEVENTS }}" -o src3.m3u
+          curl -L "${{ secrets.SRCFKODE }}" -o src.json
 
-      - name: Merge playlists
+      - name: Convert JSON to M3U
         run: |
           echo "#EXTM3U" > Kashmir.m3u
-          grep -hv "^#EXTM3U" src1.m3u src2.m3u src3.m3u > merged.m3u
-
-      - name: Inject cookies
-        run: |
-          awk '
-          /index\.mpd/{
-            print "#EXTVLCOPT:cookie=__hdnea__=st=1772569507~exp=1772655907~acl=/*~hmac=392bc917ffad0d4d27c61d8617c3dd3732ff28187ea1174ec88610955112a26c"
-          }
-          {print}
-          ' merged.m3u >> Kashmir.m3u
-
-      - name: Remove duplicate lines
-        run: |
-          awk '!seen[$0]++' Kashmir.m3u > temp.m3u
-          mv temp.m3u Kashmir.m3u
+          jq -r '.[] | "#EXTINF:-1 tvg-name=\"" + .name + "\" group-title=\"" + .groupTitle + "\"," + .name + "\n#EXTVLCOPT:cookie=__hdnea__=st=1772569507~exp=1772655907~acl=/*~hmac=392bc917ffad0d4d27c61d8617c3dd3732ff28187ea1174ec88610955112a26c\n" + .link' src.json >> Kashmir.m3u
 
       - name: Commit playlist
         run: |
