@@ -1,0 +1,49 @@
+name: Fixing 
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Download source playlist
+        run: |
+          curl -L "https://raw.githubusercontent.com/Sufiyan123yivh/Testing/refs/heads/main/jtv.m3u.bak" -o src.m3u
+
+      - name: Fix playlist
+        run: |
+          echo "#EXTM3U" > Kashmir.m3u
+          awk '
+          /#EXTINF/ {print; next}
+          /#KODIPROP/ {print; next}
+
+          /index\.mpd/ {
+            match($0, /\?(__hdnea__=[^&]+)/, a)
+            cookie=a[1]
+
+            print "#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13) ygx/69.1 ExoPlayerLib/824.0"
+            print "#EXTHTTP:{\"cookie\":\"" cookie "\"}"
+            print $0 "&xxx=%7Ccookie=" cookie
+            next
+          }
+
+          {print}
+          ' src.m3u >> Kashmir.m3u
+
+      - name: Commit playlist
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add Kashmir.m3u
+          git diff --cached --quiet || git commit -m "Auto fix JTV playlist"
+          git push
