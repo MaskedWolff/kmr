@@ -2,8 +2,14 @@
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODi_fc_web_1772618590773.jpg" group-title="Fancode-Cricket", New Zealand Women vs Zimbabwe Women (Zimbabwe Women tour of New Zealand, 2026)
 https://sonypartnersdaimenew.akamaized.net/hls/live/2037141/DAI21NZVSZM/master.m3u8?hdnea=exp=1772704631~acl=/*~id=71785011425195593525044196708121~hmac=6d0366235e8ad67ec91951da9fa25355bbb0ed74580b3ee750c425b6a11088d2
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Men's-One-Day-Series_web.jpg" group-title="Fancode-Cricket", Hong Kong, China vs Kuwait (Men's One Day Series 2026)
+https://in-mc-fdlive.fancode.com/mumbai/140884_english_hls_31ff5afa7242040_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134039_5609_TAS_VCT_FC-Web.png" group-title="Fancode-Cricket", Tasmania vs Victoria (Sheffield Shield, 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/134039_english_hls_218ba2772e41715_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134040_5609_SAU_NSW_FC-Web.png" group-title="Fancode-Cricket", South Australia vs New South Wales (Sheffield Shield, 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/134040_english_hls_2b4391587444375_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/134038_5609_QUN_WAU_FC-Web.png" group-title="Fancode-Cricket", Queensland vs Western Australia (Sheffield Shield, 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/134038_english_hls_7fd497bc3670906_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", B Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/141006_english_hls_6bf703572476628_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", A Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
@@ -12,8 +18,6 @@ https://in-mc-fdlive.fancode.com/mumbai/141005_english_hls_feaf78b80227098_1ta-d
 https://in-mc-fdlive.fancode.com/mumbai/141004_english_hls_30fd12082358848_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", G Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/141231_english_hls_474c4b4f5a61793_1ta-di_h264/index.m3u8
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", E Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
-https://in-mc-fdlive.fancode.com/mumbai/141230_english_hls_0833749b2097113_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", D Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
 https://in-mc-fdlive.fancode.com/mumbai/141229_english_hls_7fca51d35a9762_1ta-di_h264/index.m3u8
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg" group-title="Fancode-Tennis", C Court Feed vs Indian, United States (ATP Masters BNP Paribas Open 2026)
@@ -2893,4 +2897,4 @@ http://jiotvbpkmob.cdn.jio.com/bpk-tv/Zing_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=1a144ade8f5357dd81862285cd921c5b:b0c84f4255ba4f8082c9b13089ddb9cc
 http://jiotvbpkmob.cdn.jio.com/bpk-tv/Zoom_BTS/output/index.mpd
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015764/1772613544098305_NZw_vs_ZIMw_1stODI_landscape_thumb.jpg" group-title="sonyliv-Cricket", 1st ODI - 5 Mar 2026 [ENG] - Zimbabwe Women's Tour of New Zealand 2026
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1772710738~acl=/*~id=70027383323931821472098691309687~hmac=0ff006f512deaf5cf1791e60124d94833d411ccadd127d7e00db7d49b8571385
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21-criclive/std_lrh-800300010.m3u8?hdnea=exp=1772714973~acl=/*~id=94047680969272081922271490172771~hmac=22fd7091f05b77bd30047c7226d7a184010ee66724fd34dc092f9f91918df0db
