@@ -4,6 +4,10 @@ https://in-mc-fdlive.fancode.com/mumbai/140452_english_hls_b8af32bb7720615_1ta-d
 
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140452_5956_EBFC_FCG_fc-web_1772688816397.jpg" group-title="Fancode-Football", East Bengal FC vs FC Goa (ISL 2025-26  - Regional)
 https://in-mc-fdlive.fancode.com/mumbai/141090_bengali_hls_4f1e74ec1c94981_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/140865_5648_BU_TAM_FC-WEB.jpg" group-title="Fancode-Football", Bangkok United vs Tampines Rovers FC (AFC Champions League Two 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/140865_english_hls_d86ca6002f31985_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(7).png" group-title="Fancode-Golf", Main Feed Day 1 vs Orlando, Florida (Arnold Palmer Invitational 2026)
+https://in-mc-fdlive.fancode.com/mumbai/140988_english_hls_65f4a904ef47085_1ta-di_h264/index.m3u8
 #EXTINF:-1 tvg-id="001" group-title="News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/10_TV.png",10 TV
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=14619c8b69cb52e0a1cc4e348e2b195f:e98a0c4f320c05ef65b32f3af7b05b47
@@ -2879,4 +2883,4 @@ http://jiotvbpkmob.cdn.jio.com/bpk-tv/Zing_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=1a144ade8f5357dd81862285cd921c5b:b0c84f4255ba4f8082c9b13089ddb9cc
 http://jiotvbpkmob.cdn.jio.com/bpk-tv/Zoom_BTS/output/index.mpd
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000015766/177261403814412_DP_World_Day1_Joburg-Open_landscape_thumb.jpg" group-title="sonyliv-Golf", Joburg Open Day 1 - 5 Mar 2026 [ENG] - DP World Tour
-https://sonydaimenew.akamaized.net/hls/live/2094590/DAI25ME-DPW/std_lrh-800300010.m3u8?hdnea=exp=1772753715~acl=/*~id=24754724252729911295565826313062~hmac=f95bc1e5699ba2f03c633d0926b43cd821fe0728a9961bc3cf2258937557fdc0
+https://sonydaimenew.akamaized.net/hls/live/2094590/DAI25ME-DPW/std_lrh-800300010.m3u8?hdnea=exp=1772756741~acl=/*~id=14327713817415149483071616855837~hmac=85e11cba67b8e5e13206814b059af2a5bb9f6a13465f67fa3b95d42b7c187f09
