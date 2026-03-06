@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # -------- JSON → M3U --------
+      # -------- JSON → M3U (Kashmir) --------
       - name: Download JSON source
         run: |
           curl -L "${{ secrets.SRCFKODE }}" -o src.json
@@ -32,7 +32,7 @@ jobs:
           "#EXTHTTP:{\"cookie\":\"" + .cookie + "\"}",
           (.link + "?" + .cookie + "&xxx=%7Ccookie=" + .cookie)' src.json >> Kashmir.m3u
 
-      # -------- SECOND JSON → M3U --------
+      # -------- SECOND JSON → M3U (ZSTAR) --------
       - name: Download Second JSON
         run: |
           curl -L "https://zstar.pfy.workers.dev" -o src2.json
@@ -42,6 +42,8 @@ jobs:
           echo "#EXTM3U" > extra_playlist.m3u
           jq -r '.[] |
           "#EXTINF:-1 tvg-name=\"" + .name + "\" tvg-logo=\"" + .logo + "\"," + .name,
+          "#KODIPROP:inputstream.adaptive.license_type=" + .drmScheme,
+          "#KODIPROP:inputstream.adaptive.license_key=" + .drmLicense,
           "#EXTVLCOPT:http-user-agent=plaYtv/7.1.3 (Linux;Android 13)",
           "#EXTHTTP:{\"cookie\":\"" + .cookie + "\"}",
           (.link + "?" + .cookie + "&xxx=%7Ccookie=" + .cookie)' src2.json >> extra_playlist.m3u
