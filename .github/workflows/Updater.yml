@@ -11,18 +11,24 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # -------- JSON → M3U (Kashmir) --------
-      - name: Download JSON source
+      - name: Configure Git
         run: |
-          curl -L "${{ secrets.SRCFKODE }}" -o src.json
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
-      - name: Convert JSON to M3U
+      - name: Continuous Playlist Builder (5s check)
         run: |
+          while true; do
+
+          echo "Fetching JSON source..."
+          curl -L "${{ secrets.SRCFKODE }}?t=$(date +%s)" -o src.json
+
           echo "#EXTM3U" > Kashmir.m3u
           jq -r '.[] |
           "#EXTINF:-1 tvg-name=\"" + .name + "\" tvg-logo=\"" + .logo + "\"," + .name,
@@ -32,15 +38,14 @@ jobs:
           "#EXTHTTP:{\"cookie\":\"" + .cookie + "\"}",
           (.link + "?" + .cookie + "&xxx=%7Ccookie=" + .cookie)' src.json >> Kashmir.m3u
 
-      # -------- SECOND SOURCE (DIRECT M3U REPO) --------
-      - name: Download Second M3U
-        run: |
-          curl -L "${{ secrets.SRCSTAR }}" -o extra_playlist.m3u
+          echo "Fetching second M3U..."
+          curl -L "${{ secrets.SRCSTAR }}?t=$(date +%s)" -o extra_playlist.m3u
 
-      - name: Commit playlists
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
           git add Kashmir.m3u extra_playlist.m3u
           git diff --cached --quiet || git commit -m "Auto update playlists"
           git push
+
+          echo "Sleeping 5 seconds..."
+          sleep 5
+
+          done
