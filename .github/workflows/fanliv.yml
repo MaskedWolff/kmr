@@ -1,0 +1,30 @@
+name: Build FanLiv Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Fetch FanLiv Playlist
+        run: |
+          curl -L "https://raw.githubusercontent.com/rkdyiptv/Playlist/main/Playlist/fc.m3u" -o fanliv.m3u
+
+      - name: Commit Update
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+          git add fanliv.m3u
+          git diff --cached --quiet || git commit -m "Auto update FanLiv playlist"
+          git push
