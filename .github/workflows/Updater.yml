@@ -35,7 +35,7 @@ jobs:
       # -------- SECOND JSON → M3U (ZSTAR) --------
       - name: Download Second JSON
         run: |
-          curl -L "https://zstar.pfy.workers.dev" -o src2.json
+          curl -L "${{ secrets.SRCSTAR }}" -o src2.json
 
       - name: Convert Second JSON to M3U
         run: |
