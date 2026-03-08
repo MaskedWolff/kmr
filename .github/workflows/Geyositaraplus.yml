@@ -1,0 +1,50 @@
+name: GeoYositaraplus Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Download Source Playlist
+        run: |
+          curl -L "${{ secrets.SRCSITARAPLUS }}" -o source.m3u
+
+      - name: Clean Playlist
+        run: |
+          sed -n '/#EXTM3U/,$p' source.m3u > clean.m3u
+
+      - name: Inject Cookie into MPD
+        run: |
+          awk '
+          /#EXTHTTP/ {
+            match($0, /cookie":"([^"]+)/, a)
+            cookie=a[1]
+            print
+            next
+          }
+          /\.mpd$/ {
+            print $0 "?__hdnea__=" cookie "&xxx=%7Ccookie=" cookie
+            next
+          }
+          {print}
+          ' clean.m3u > geyositaraplus.m3u
+
+      - name: Commit Update
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+
+          git add geyositaraplus.m3u
+          git diff --cached --quiet || git commit -m "Auto update GeoYositaraplus playlist"
+          git push
