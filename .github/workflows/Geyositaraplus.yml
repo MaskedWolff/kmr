@@ -1,4 +1,4 @@
-name: GeoYositaraplus Playlist
+name: GeoSitaraplus Ultra Sync
 
 on:
   workflow_dispatch:
@@ -9,42 +9,52 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
 
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Download Source Playlist
-        run: |
-          curl -L "${{ secrets.SRCSITARAPLUS }}" -o source.m3u
-
-      - name: Clean Playlist
-        run: |
-          sed -n '/#EXTM3U/,$p' source.m3u > clean.m3u
-
-      - name: Inject Cookie into MPD
-        run: |
-          awk '
-          /#EXTHTTP/ {
-            match($0, /cookie":"([^"]+)/, a)
-            cookie=a[1]
-            print
-            next
-          }
-          /\.mpd$/ {
-            print $0 "?__hdnea__=" cookie "&xxx=%7Ccookie=" cookie
-            next
-          }
-          {print}
-          ' clean.m3u > geyositaraplus.m3u
-
-      - name: Commit Update
+      - name: Setup Git
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
 
-          git add geyositaraplus.m3u
-          git diff --cached --quiet || git commit -m "Auto update GeoYositaraplus playlist"
-          git push
+      - name: Start 10s Detection Loop
+        run: |
+          while true
+          do
+            echo "Checking source..."
+
+            curl -sL "${{ secrets.SRCSITARAPLUS }}" -o source.m3u
+
+            sed -n '/#EXTM3U/,$p' source.m3u > clean.m3u
+
+            awk '
+            /#EXTHTTP/ {
+              match($0, /cookie":"([^"]+)/, a)
+              cookie=a[1]
+              print
+              next
+            }
+            /\.mpd$/ {
+              print $0 "?__hdnea__=" cookie "&xxx=%7Ccookie=" cookie
+              next
+            }
+            {print}
+            ' clean.m3u > geyositaraplus.m3u
+
+            git add geyositaraplus.m3u
+
+            if git diff --cached --quiet; then
+              echo "No update"
+            else
+              git commit -m "Auto update GeoSitaraplus playlist"
+              git push
+              echo "Updated playlist"
+            fi
+
+            sleep 10
+          done
