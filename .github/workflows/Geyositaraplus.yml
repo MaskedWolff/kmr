@@ -1,4 +1,4 @@
-name: GeoSitaraplus JioTV Auto Fix
+name: GeoSitaraplus JioTV Fix
 
 on:
   workflow_dispatch:
@@ -25,14 +25,16 @@ jobs:
         run: |
           curl -sL "${{ secrets.SRCSITARAPLUS }}" -o source.m3u
 
-      - name: Remove HTML Header
+      - name: Clean HTML
         run: |
           sed -n '/#EXTM3U/,$p' source.m3u > clean.m3u
 
-      - name: Fix JioTV MPD + Refresh Cookie
+      - name: Fix JioTV Cookie + Remove Spaces
         run: |
           awk '
           /#EXTHTTP/ {
+            gsub(/\{ /,"{")
+            gsub(/ \}/,"}")
             match($0, /cookie":"([^"]+)/, a)
             cookie=a[1]
             print
@@ -42,7 +44,6 @@ jobs:
           /\.mpd/ {
             url=$0
             sub(/\?.*/, "", url)
-
             print url "?" cookie "&xxx=%7Ccookie=" cookie
             next
           }
@@ -53,5 +54,5 @@ jobs:
       - name: Commit Update
         run: |
           git add geyositaraplus.m3u
-          git diff --cached --quiet || git commit -m "Auto fix JioTV MPD + refresh cookie"
+          git diff --cached --quiet || git commit -m "Fix GeoSitaraplus playlist"
           git push
